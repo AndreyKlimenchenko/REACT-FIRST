@@ -1,0 +1,29 @@
+.header {
+    height: 82px;
+    background-color: rgba(34, 35, 38, 0.8);
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.header-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    line-height: 31px;
+    padding: 25px 15px 25px 15px;
+    transition-duration: .15s;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.header-btn:hover {
+    background-color: rgb(199, 8, 29);
+}

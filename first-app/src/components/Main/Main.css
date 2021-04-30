@@ -1,0 +1,31 @@
+.main {
+
+}
+
+.bcg {
+    background-position-x: center;
+    height: 100ch;
+    background-repeat:no-repeat;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    background-image: url(../Main/assets/tesla1.jpeg);
+    animation-iteration-count: infinite;
+    background-attachment: fixed;
+    background-size: auto 100ch;
+}
+
+@keyframes move {
+    0% {background-image: url(../Main/assets/tesla1.jpeg)}
+    33% {background-image: url(../Main/assets/tesla2.jpeg)}
+    66% {background-image: url(../Main/assets/tesla3.jpeg)}
+}
+
+.content {
+    width: 80%;
+    display: contents;
+    align-items: center;
+    text-align: center;
+}
