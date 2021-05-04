@@ -18,9 +18,9 @@
 }
 
 @keyframes move {
-    0% {background-image: url(../Main/assets/tesla1.jpeg)}
-    33% {background-image: url(../Main/assets/tesla2.jpeg)}
-    66% {background-image: url(../Main/assets/tesla3.jpeg)}
+    0% {background-image: url(../../assets/tesla1.jpeg)}
+    33% {background-image: url(../../assets/tesla2.jpeg)}
+    66% {background-image: url(../../assets/tesla3.jpeg)}
 }
 
 .content {
