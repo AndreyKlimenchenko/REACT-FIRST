@@ -20,7 +20,11 @@ class App extends React.Component {
   handleClick(e, mode) {
     e.stopPropagation();
     this.setState((prevState) => ({
-      ...prevState,
+      isOpenFirst: false,
+      isOpenSecond: false,
+      isOpenThird: false,
+      isOpenFourth: false,
+      isOpenFifth: false,
       [mode]: !prevState[mode]
       }
     ));
