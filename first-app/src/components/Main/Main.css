@@ -11,7 +11,7 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
     animation-direction: alternate;
-    background-image: url(../Main/assets/tesla1.jpeg);
+    background-image: url(../../assets/tesla1.jpeg);
     animation-iteration-count: infinite;
     background-attachment: fixed;
     background-size: auto 100ch;
